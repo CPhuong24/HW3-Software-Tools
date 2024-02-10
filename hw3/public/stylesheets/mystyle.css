@@ -1,0 +1,28 @@
+body {
+    background-color: plum;
+    margin : auto;
+    width : 50%;
+}
+
+img {
+    margin : auto;
+    width : 50%;
+}
+
+form {
+    background-color: purple ;
+}
+
+p {
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    margin-left : auto ;
+    align-content : center;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-shadow : 2px 2px 5px pink;
+}

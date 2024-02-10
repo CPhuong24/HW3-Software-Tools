@@ -1,0 +1,93 @@
+<!-- Author: Calvin Phuong -->
+	
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<!-- Link to the CSS file -->
+		<link rel="stylesheet" href="stylesheets/mystyle.css">
+
+		<!-- Link to the jQuery Javscript library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+
+		
+
+	</head>
+
+	<!-- Beginning of the body of th eorer form -->
+	<body>
+
+		<!-- Title of the Order form -->
+		<h1>Cheesecake Order Form </h1>
+
+		<!-- Cheesecake Image -->
+		<img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg" style="width:200px;height:200px">
+	
+		<p id="orderSection"> Quantity Topping
+		
+			<form id="orderForm">
+				
+				<!-- Table format for radio buttons and dropdown 2x3 formt-->
+				<table>
+					<tr>
+						<td>
+							<br>
+						</td>
+						<td>
+							<input type="radio" id="plain" name="flavor">
+							<label for="plain">Plain</label><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<select id="quanitity" name="quanitity">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+						</td>
+						<td>
+							<input type="radio" id="cherry" name="flavor">
+							<label for="cherry">Cherry</label><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<br>
+						</td>
+						<td>
+							<input type="radio" id="chocolate" name="flavor">
+							<label for="chocolate">Chocolate</label><br>
+						</td>
+					</tr>
+				</table>
+		
+				<!-- Notes section for User Input -->
+				<label for="notes" id="notes"> Notes: </label> <br>
+				<textarea name="notes" id="writeNote" rows="4" cols="40" placeholder="Enter any special instructions here."></textarea>
+				<br><br>
+				<input type="submit" id="orderButton" value="Order">
+				
+			</form>
+		</p>
+
+		<p>
+			<h3 id="orderInfo"> Total Orders Last Month </h3>
+			
+			<ul>
+				<li> 11 cherry </li>
+				<li> 17 chocolate </li>
+				<li> 31 plain </li>
+			</ul>
+		</p>
+
+		<!-- JavaScript Code Section -->
+		<script src="javascripts/myjavascript.js"></script>
+	</body>
+
+	
+</html>
